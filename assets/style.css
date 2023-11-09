@@ -1,0 +1,113 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* margin: 0 10%; */
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    color: #333; 
+    line-height: 2;
+}
+
+/* Header design */
+.header{
+    background: #F8f9FB;
+    padding: 5px;
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* Sidebar and Article design */
+.main_container{
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.flexbox {
+    display: flex;
+}
+
+/* Sidebar and Outline dedign */
+.logo{
+    text-align: left;
+    margin-left: 8%;
+}
+
+.logo img{
+    width: 13%;
+    height: 5%;
+    display: inline-block;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.12); */
+}
+
+.sidebar{
+    flex-basis: 30%;
+    background: #F8f9FB;
+    position: sticky;
+   
+    
+}
+
+.outline ul{
+    margin: 10% 10% 0;
+    text-align: left;
+    list-style: none;
+    color: #555;
+}
+
+.outline li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* .outline_list:hover{
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.outline li:hover:first-child{
+    background: #F8f9FB;
+} */
+
+.divide {
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.outline_heading{
+    text-align: center;
+    font-weight: bold;
+}
+
+.how_to_use_parbot{
+    text-indent: 2em;
+}
+
+/* Article design */
+.article_container{
+    width: 70%;
+    margin: 5% 10% 0;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.subheading{
+    font-weight: bold;
+    border-left: 10px solid black;
+    padding-left: 1%;
+    margin: 8% 0 2%;
+}
+
+.image_container{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+  margin: 2% 0;  
+}
